@@ -11,7 +11,7 @@ abstract class Fighter {
   
   
   def damage = force + ability + weapon.damage + luck
-  override def toString = "ID:> " + id + " TYPE = " + fighterType +" - Force = " + force + "- Ability = " + ability + "- Weapon = " + weapon + "- Luck =  " + luck  + "- DAMAGE =  "+ damage  
+  override def toString = "ID:> " + id + " TYPE = " + fighterType +" (Force = " + force + " - Ability = " + ability + " - Weapon = " + weapon + " - Luck =  " + luck  + " - DAMAGE =  "+ damage + ")" 
   
 }
 
